@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Button from "../button/Button";
 import './style.css';
 
-function Header() {
+function NavBar() {
 
   const navigate = useNavigate();
 
@@ -39,4 +39,4 @@ function Header() {
   )
 }
 
-export default Header
+export default NavBar;

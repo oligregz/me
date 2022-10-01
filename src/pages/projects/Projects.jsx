@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../components/footer/Footer";
-import Header from "../../components/header/Header";
+import NavBar from "../../components/navBar/NavBar";
 import "./style.css";
 
 // const projectsLinkData = [
@@ -13,7 +13,7 @@ import "./style.css";
 function Projects() {
   return (
     <div className="projectsPage">
-      <Header />
+      <NavBar />
       <div className="listLinks">
         <ul>
           <li>

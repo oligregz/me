@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../../components/header/Header";
+import NavBar from "../../components/navBar/NavBar";
 import Footer from "../../components/footer/Footer";
 import "./style.css";
 
 function Home() {
   return (
   <div className="homePage">
-    <Header />
+    <NavBar />
     <div className="case">
       <div className="meHome">
         <p className="txt" id="oi">Hey ___________</p>
