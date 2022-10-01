@@ -1,0 +1,50 @@
+h3 {
+  color: rgba(255, 251, 251, 0.9);
+}
+
+.taga {
+  background-color: rgba(1, 1, 23, 0.8);
+  display: block;
+  width: 160px;
+  height: 40px;
+  line-height: 40px;
+  padding: 10px 5px;
+  margin: 20px;
+  color: #FFF;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+  border: 0px;
+}
+
+.taga:hover {
+  display: block;
+  width: 160px;
+  height: 40px;
+  line-height: 40px;
+  padding: 10px 5px;
+  margin: 20px;
+  background-color: rgba(1, 1, 23, 0);
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+  transition: 300ms;
+}
+
+ul {
+  list-style:none;
+}
+
+.starLine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(215, 236, 255, 0.6);
+  width: 300px;
+  border-radius: 5px;
+}

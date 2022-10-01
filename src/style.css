@@ -1,0 +1,11 @@
+body{
+  margin: 0%;
+}
+
+.App{
+  background-image: url("./images/astronaut-idea.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: fixed;
+}

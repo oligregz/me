@@ -1,0 +1,139 @@
+.header{
+	color: rgb(218, 195, 237);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.caseButtons{
+  display: flex;
+  padding: 3%;
+}
+
+.btn {
+  height: 30px;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+	font-family: OCR A Std, monospace;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+.homeButton{
+	color: rgb(157, 67, 130);
+	transition: all 2.0s;
+	position: relative;	
+}
+.homeButton::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgba(147, 6, 240, 0.2);
+	background-color: rgba(159, 6, 186, 0.505);
+}
+.homeButton::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgba(147, 6, 240, 0.2);
+	background-color: rgba(159, 6, 186, 0.505);
+}
+.homeButton:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255,255,255,0);
+}
+.homeButton:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
+}
+
+
+.bioButton{
+	color: rgb(157, 67, 130);
+	transition: all 2.0s;
+	position: relative;	
+}
+.bioButton::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgba(147, 6, 240, 0.2);
+	background-color: rgba(159, 6, 186, 0.505);
+}
+.bioButton::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgba(147, 6, 240, 0.2);
+	background-color: rgba(159, 6, 186, 0.505);
+}
+.bioButton:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255,255,255,0);
+}
+.bioButton:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
+}
+
+
+.projectsButton{
+	color: rgb(157, 67, 130);
+	transition: all 2.0s;
+	position: relative;	
+}
+.projectsButton::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgba(147, 6, 240, 0.2);
+	background-color: rgba(159, 6, 186, 0.505);
+}
+.projectsButton::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s;
+	border: 1px solid rgba(147, 6, 240, 0.2);
+	background-color: rgba(159, 6, 186, 0.505);
+}
+.projectsButton:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255,255,255,0);
+}
+.projectsButton:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
+}
