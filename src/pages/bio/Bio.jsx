@@ -23,6 +23,7 @@ function Bio() {
           com os restos de carrinho de controle remoto e o mais legal, era que tinha a minha identidade ali. <br />
           Com passar do tempo fui amadurecendo e encontrei no código a oportunidade de por o sonho de criança em prova e viver dele através do código, isso se deu em uma sala de aula na UFRB(Universidade Federal do Recôncavo da Bahia) a poucos anos atrás, estudando processamento e dados com Python.
           A fatídica pandemia chegou e como tudo atrasou, decidi que era hora de realinhar as coisas e fazer o que de fato queria, então fui pesquisar e encontrei a Trybe com a oportunidade que casou perfeitamente com as minhas necessidades de querer  trabalhar com tecnologia e me tornar um desenvolvedor, e bom, o resto... você pode falar comigo, será um prazer partilhar não só minha trajetória mais também conhecimentos, dúvidas, resenhas e muito mais.
+          
         </p>
       </div>
       <Footer />
