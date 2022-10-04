@@ -1,9 +1,8 @@
-.header{
+.navBar{
 	color: rgb(218, 195, 237);
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center;
 }
 
 .caseButtons{
@@ -136,4 +135,22 @@
 .projectsButton:hover::after {
   transform: rotate(45deg);
   background-color: rgba(255,255,255,0);
+}
+
+@media screen and (max-width: 600px){
+	.navBar {
+		color: rgb(218, 195, 237);
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.btn {
+		height: 10px;
+		text-align: center;
+		width: 50px;
+		margin-left: 5px;
+		margin-right: 5px;
+		font-size: 5px;
+	}
 }

@@ -8,7 +8,7 @@ function NavBar() {
   const navigate = useNavigate();
 
   return (
-    <div className='header'>
+    <div className='navBar'>
       <div className="caseButtons">
         <Button
           value="HOME"
