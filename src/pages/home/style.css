@@ -40,3 +40,26 @@
   color: rgba(132, 37, 191, 1);
   font-family: OCR A Std, monospace;
 }
+
+@media screen and (max-width: 600px){
+  .meHome {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  #dev {
+    font-size: 25px;
+  }
+
+  #eu {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+  
+  #dev {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+}
