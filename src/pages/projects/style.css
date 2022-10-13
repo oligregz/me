@@ -5,7 +5,7 @@ h3 {
 .taga {
   background-color: rgba(1, 1, 23, 0.8);
   display: block;
-  width: 160px;
+  width: 130px;
   height: 40px;
   line-height: 40px;
   padding: 10px 5px;
@@ -47,4 +47,80 @@ ul {
   background-color: rgba(215, 236, 255, 0.6);
   width: 300px;
   border-radius: 5px;
+}
+
+.starLine:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(215, 236, 255, 0.6);
+  width: 200px;
+  border-radius: 5px;
+  transition: 300ms;
+}
+
+@media screen and (max-width: 600px) {
+  .projectsPage {
+    height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .listLinks {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    height: 100vh;
+  }
+
+  .starLine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(215, 236, 255, 0.6);
+    width: 150px;
+    border-radius: 2px;
+  }
+  
+  .taga {
+    background-color: rgba(1, 1, 23, 0.8);
+    display: block;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    padding: 10px 5px;
+    margin: 7px;
+    margin-top: 3px;
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    border: 0px;
+  }
+  
+  .taga:hover {
+    display: block;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    padding: 10px 5px;
+    margin: 7px;
+    background-color: rgba(1, 1, 23, 0);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 300ms;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }

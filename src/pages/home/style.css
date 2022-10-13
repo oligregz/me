@@ -33,6 +33,7 @@
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+  height: 100vh;
 }
 
 .txt {
@@ -42,9 +43,19 @@
 }
 
 @media screen and (max-width: 600px){
+  .homePage {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .meHome {
     display: flex;
     flex-flow: wrap;
+    height: 100vh;
+  }
+
+  .case {
+    height: 100%;
   }
 
   #dev {

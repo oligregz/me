@@ -1,11 +1,9 @@
 body{
   margin: 0%;
+  background-image: url(./images/astronaut-idea.jpg);
+  height: 100vh;
 }
 
-.App{
-  background-image: url("./images/astronaut-idea.jpg");
-  width: 100vw;
+.App {
   height: 100vh;
-  background-size: cover;
-  position: fixed;
 }

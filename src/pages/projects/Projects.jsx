@@ -18,14 +18,14 @@ function Projects() {
         <ul>
           <li>
             <div className="starLine">
-                <h3>Star Wars Planets </h3>
-                <a
-                  href="https://oligregz.github.io/Star-Wars-Planets-Project/"
-                  target={"blank"}
-                  className="taga"
-                >
-                  {"Ei, clica aqui ;)"}
-                </a>
+              <h3>Star Wars Planets </h3>
+              <a
+                href="https://oligregz.github.io/Star-Wars-Planets-Project/"
+                target={"blank"}
+                className="taga"
+              >
+                {"Clica aqui!"}
+              </a>
             </div>
           </li>
         </ul>
