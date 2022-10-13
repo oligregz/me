@@ -1,9 +1,23 @@
 body{
   margin: 0%;
+  background-size: cover;
   background-image: url(./images/astronaut-idea.jpg);
   height: 100vh;
 }
 
 .App {
   height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  body{
+    margin: 0%;
+    background-size: cover;
+    background-image: url(./images/mobile-background.jpeg);
+    height: 100vh;
+  }
+  
+  .App {
+    height: 100vh;
+  }
 }
